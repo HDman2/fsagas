@@ -1,0 +1,44 @@
+
+local messagebill1 = Instance.new("BillboardGui")
+local chattext1 = Instance.new("TextLabel")
+local rainbowloop1 = true
+
+local plr1 = game.Players["17Syn"]
+
+function message1()
+    chattext1.Text = "HD"
+end
+
+
+messagebill1.Size = UDim2.new(0,200,0,100)
+messagebill1.Parent = plr1.Character.Head
+messagebill1.StudsOffset = Vector3.new(0,4,0)
+messagebill1.Name = "Message"
+
+chattext1.Parent = messagebill2
+chattext1.Size = UDim2.new(1,0,1,0) -- text size
+chattext1.BackgroundTransparency = 1 -- text transparency
+chattext1.TextScaled = true -- distance scaling
+message1()
+while rainbowloop1 == true do
+    wait()
+    chattext1.TextColor3 = Color3.new(229, 173, 200)
+    wait(2)
+    chattext1.TextColor3 = Color3.new(229, 173, 200)
+    wait(2)
+    chattext1.TextColor3 = Color3.new(229, 173, 200)
+    wait(2)
+    chattext1.TextColor3 = Color3.new(229, 173, 200)
+    wait(2)
+    chattext1.TextColor3 = Color3.new(229, 173, 200)
+    wait(2)
+    chattext1.TextColor3 = Color3.new(229, 173, 200)
+    wait(2)
+    chattext1.TextColor3 = Color3.new(229, 173, 200)
+    wait(2)    
+    chattext1.TextColor3 = Color3.new(229, 173, 200)
+end
+
+
+
+
